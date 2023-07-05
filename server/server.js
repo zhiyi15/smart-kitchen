@@ -47,7 +47,6 @@ app.patch('/produce/:id', produceController.updateProduce, (req, res) =>{
 
 })
 
-
 // delete item
 app.delete('/produce/:id', produceController.deleteProduce, (req, res) => {
   return res.status(200).send('Item deleted!');

@@ -39,11 +39,11 @@
 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-left: 250px;
-  padding-top: 20px;
+  padding-top: 70px;
   font-size: 50px;
 }
 
-/* form styleing/in[puts */
+/* form styling/inputs */
 form {
   /* padding-left: 200px; */
   width: 100%;
@@ -63,8 +63,6 @@ body {
 
 /* button styling */
 button {
-  /* font-size: 13px; */
-  /* font-weight: bold; */
   background-color: rgb(100, 46, 186);
   color: white;
   padding: 8px;
@@ -115,9 +113,8 @@ border: pink 4px solid;
   max-width: 400px;
   padding: left 50px;
   text-align: center;
-align-items: center;
-position:relative;
-
+  align-items: center;
+  position:relative;
 }
 
 .create label {
@@ -148,8 +145,6 @@ position:relative;
 
 /*styling produce card*/
 .pr-preview {
-  /* background-image: url('https://t3.ftcdn.net/jpg/01/44/74/48/240_F_144744801_M6NWNOLVFMRuHDQ36ZrnEXrAB64RpZk2.jpg');
-  background-size: cover; */
   background-color: #ffff88;
   font-size: 20px;
   border-radius: 10px;
