@@ -1,0 +1,34 @@
+{
+  "produce": [
+    {
+      "name": "apple",
+      "qt": 5,
+      "expDate": 3,
+      "id": 1
+    },
+    {
+      "name": "he",
+      "qt": "4",
+      "expDate": "3days",
+      "id": 2
+    },
+    {
+      "name": "he",
+      "qt": "4",
+      "expDate": "3days",
+      "id": 3
+    },
+    {
+      "name": "orange",
+      "qt": "1",
+      "expDate": "2week",
+      "id": 4
+    },
+    {
+      "name": "peach",
+      "qt": "2",
+      "expDate": "1week",
+      "id": 5
+    }
+  ]
+}
