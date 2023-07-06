@@ -7,10 +7,10 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const produceController = require('./controller/produceController');
 const Produce = require('../model/projectModel');
-
+require('dotenv').config();
 
 mongoose.connect(
-  'mongodb+srv://smkc:test123@cluster0.qamiwoi.mongodb.net/?retryWrites=true&w=majority',
+  process.env.DB_URI,
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 mongoose.connection.once('open', () => {
